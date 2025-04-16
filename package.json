@@ -15,7 +15,7 @@
   "dependencies": {
     "axios": "^1.7.4",
     "dotenv": "^16.4.5",
-    "telegram-bot-api": "^0.66.0",
+    "node-telegram-bot-api": "^0.66.0",
     "ws": "^8.18.0"
   }
 }
