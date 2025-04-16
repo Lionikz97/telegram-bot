@@ -1,8 +1,7 @@
 /*
  example file command
- > github.com/ahmadqsyaa/node-bot-wrt
- > t.me/infobot_wrt
- © node-bot-wrt 2024
+ > github.com/Lionikz97/telegram-bot
+ © telegram-bot 2025
  
  (bot, msg, chatId, messageId) ✅ (full)
  (bot, msg) ✅

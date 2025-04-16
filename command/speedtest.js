@@ -11,7 +11,7 @@ export const exec = async (bot, msg, chatId, messageId) => {
                     const json = stdout.match(/\{[\s\S]*\}/)[0];
                     var data = JSON.parse(json);
                     const waktu = new Date(data.timestamp).toLocaleString('id-ID', {
-                        timeZone: 'Asia/Jakarta',
+                        timeZone: 'Asia/Kuala-Lumpur',
                         hour12: false
                     });
                     if (data.type == "result") {
@@ -36,7 +36,7 @@ result url: <a href="${data.result.url}">link</a>
                             "parse_mode": "html",
                         });
                     } else if (data.type == "log") {
-                        console.log("Data tidak valid");
+                        console.log("Data tidak sah");
                         await bot.reply(`<blockquote>${data.message+'\nPlease try again'}</blockquote>`);
                     } else {
                         await bot.reply(data)

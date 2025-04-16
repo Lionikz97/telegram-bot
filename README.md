@@ -1,3 +1,7 @@
+[![usage](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_yHZOwYQuASrlFTLGuMndxwF971hwUSeTNA&usqp=CAU)](https://cdn.videy.co/Iz3ePEd7.mp4) 
+
+
+<p align="center"><a href="https://t.me/infobot_wrt">joined groups telegram here 🫵</a></p>
 
 ### 📝 Requirement
 
@@ -151,6 +155,8 @@ telegram-bot -un
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 </code>
 
+### 🆘 Help & Contact 
+* [**telegram**](https://t.me/rickk1kch)
 
 <p align="center">tested openwrt 23.05.4 reyre</p>
 

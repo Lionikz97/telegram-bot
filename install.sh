@@ -239,7 +239,7 @@ install(){
     addCrontab "botcb" "*/2 * * * *  /root/telegram-bot/lib/bot/cek-bot.sh"
     sleep 1
     echo -e "$success bot successfully installed ... $end"
-
+    echo -e "$info join groups telegram https://t.me/infobot_wrt $end"
 }
 update() {
     while :; do
