@@ -1,0 +1,1 @@
+cd /root/telegram-bot && node /root/telegram-bot/index.js

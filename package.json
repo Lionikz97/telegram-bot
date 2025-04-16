@@ -1,0 +1,21 @@
+{
+  "name": "telegram-bot",
+  "version": "2.5 beta",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "start": "node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.4",
+    "dotenv": "^16.4.5",
+    "telegram-bot-api": "^0.66.0",
+    "ws": "^8.18.0"
+  }
+}
