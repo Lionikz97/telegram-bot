@@ -120,7 +120,7 @@ changecfg(){
 } 
 uninstall(){
 while :; do
-            read -e -p "$info do you want to uinstall telegram-bot ? [y/n]: $end" q
+            read -e -p "$info do you want to uninstall telegram-bot ? [y/n]: $end" q
             if [ "${q}" == 'y' ]; then
                 echo -e "$info uninstalling telegram-bot ... $end"
                 rm -r /root/telegram-bot
@@ -175,8 +175,8 @@ install(){
             break
         fi
     done
-    read -p "$(echo -e "$info (opsional), for modem huawei please input ip address : $end")" IPMODEM
-    read -p "$(echo -e "$info (opsional), for modem huawei please input password : $end")" PASSWORD
+    read -p "$(echo -e "$info please input ip address : $end")" IPMODEM
+    read -p "$(echo -e "$info please input password : $end")" PASSWORD
     echo -e "$info update package & install package ... $end"
     sleep 1
     opkg update
@@ -239,7 +239,7 @@ install(){
     addCrontab "botcb" "*/2 * * * *  /root/telegram-bot/lib/bot/cek-bot.sh"
     sleep 1
     echo -e "$success bot successfully installed ... $end"
-    echo -e "$info join groups telegram https://t.me/infobot_wrt $end"
+
 }
 update() {
     while :; do
